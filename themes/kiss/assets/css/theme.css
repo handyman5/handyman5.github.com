@@ -5823,3 +5823,23 @@ article {
 #footer p {
     padding-top: 2em;
 }
+
+details::before {
+  content: '▶';
+  position: absolute;
+  left: 0;
+}
+
+details {
+  display: list-item;
+  list-style: none;
+  padding-left: 1em;
+}
+
+details summary {
+  cursor: pointer;
+}
+
+summary {
+  font-weight: bold;
+}

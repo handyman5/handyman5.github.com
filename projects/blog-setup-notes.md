@@ -50,6 +50,12 @@ I have some old blogs which have vanished from the internet (but not from the In
 * <https://adriaanrol.com/posts/2020/building-a-site-using-nikola/>
 * <https://chriswarrick.com/blog/2014/10/13/revamping-my-projects-page-with-nikola/>
 
+## Custom Domain
+
+* <https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages#using-an-apex-domain-for-your-github-pages-site>
+* <https://stackoverflow.com/questions/9082499/custom-domain-for-github-project-pages>
+
+
 ## Bluesky Comments
 
 Still in progress. Prior art:
