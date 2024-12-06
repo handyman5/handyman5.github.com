@@ -26,6 +26,8 @@ jobs:
     - name: Copy Plugin Assets
       run: |-
         find . -type d
+        ls -l plugins/*/files/
+        ls -l output/
         rsync -rvP --inplace plugins/*/files/ output/
         find . -name "*bluesky*"
     - name: Upload Site
