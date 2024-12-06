@@ -30,8 +30,8 @@ jobs:
         ls -l output/
         find . -name "*bluesky*"
         sudo chmod -R o+w output
-        cp -r plugins/*/files/ output/
-        #rsync -rvP --inplace --mkpath plugins/*/files/ output/
+        #cp -r plugins/*/files/ output/
+        rsync -rvP --inplace --mkpath plugins/*/files/ output/
         find . -name "*bluesky*"
     - name: Upload Site
       uses: actions/upload-pages-artifact@v3
