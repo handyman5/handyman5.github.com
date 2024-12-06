@@ -25,14 +25,8 @@ jobs:
         dry_run: true
     - name: Copy Plugin Assets
       run: |-
-        find . -type d
-        ls -l plugins/*/files/
-        ls -l output/
-        find . -name "*bluesky*"
         sudo chmod -R o+w output
-        #cp -r plugins/*/files/ output/
         rsync -rvP --inplace --mkpath plugins/*/files/ output/
-        find . -name "*bluesky*"
     - name: Upload Site
       uses: actions/upload-pages-artifact@v3
       with:
