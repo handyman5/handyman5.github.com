@@ -28,7 +28,7 @@ jobs:
         find . -type d
         ls -l plugins/*/files/
         ls -l output/
-        rsync -avP --inplace --no-perms --no-owner --no-group plugins/*/files/ output/
+        rsync -rvP --inplace --mkpath plugins/*/files/ output/
         find . -name "*bluesky*"
     - name: Upload Site
       uses: actions/upload-pages-artifact@v3
