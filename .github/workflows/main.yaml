@@ -25,6 +25,7 @@ jobs:
         dry_run: true
     - name: Copy Plugin Assets
       run: |-
+        find . -type d
         rsync -avP plugins/*/files/ output/
     - name: Upload Site
       uses: actions/upload-pages-artifact@v3
