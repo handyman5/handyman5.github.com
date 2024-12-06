@@ -13,13 +13,13 @@ jobs:
     - name: Check out
       uses: actions/checkout@v4
     - name: Prep pip cache
-      run: mkdir -p /tmp/pip/.cache
+      run: mkdir -p .cache
     - name: Restore Nikola
       id: nikola-restore
       uses: actions/cache/restore@v4
       with:
         path: |
-          /tmp/pip/.cache
+          .cache
         key: ${{ runner.os }}-nikola
 
     # - name: Setup Python
@@ -32,7 +32,7 @@ jobs:
     - name: Build and Deploy Nikola
       uses: getnikola/nikola-action@v8
       env:
-        PIP_CACHE: /tmp/pip/.cache
+        PIP_CACHE: .cache
       with:
         dry_run: true
     - name: Copy Plugin Assets
@@ -45,10 +45,10 @@ jobs:
         path: "output"
     - name: Publish Site
       uses: actions/deploy-pages@v4
-    - name: Save Primes
+    - name: Save Nikola
       id: nikola-save
       uses: actions/cache/save@v4
       with:
         path: |
-          /tmp/pip/.cache
+          .cache
         key: ${{ steps.nikola-restore.outputs.cache-primary-key }}
