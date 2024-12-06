@@ -23,6 +23,9 @@ jobs:
       uses: getnikola/nikola-action@v8
       with:
         dry_run: true
+    - name: Copy Plugin Assets
+      run: |-
+        rsync -avP plugins/*/files/ output/
     - name: Upload Site
       uses: actions/upload-pages-artifact@v3
       with:
