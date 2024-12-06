@@ -29,7 +29,6 @@ jobs:
         ls -l plugins/*/files/
         ls -l output/
         find . -name "*bluesky*"
-        stat output/files
         sudo chmod -R o+w output
         cp -r plugins/*/files/ output/
         #rsync -rvP --inplace --mkpath plugins/*/files/ output/
