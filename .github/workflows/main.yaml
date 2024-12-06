@@ -28,7 +28,9 @@ jobs:
         find . -type d
         ls -l plugins/*/files/
         ls -l output/
-        rsync -rvP --inplace --mkpath plugins/*/files/ output/
+        find . -name "*bluesky*"
+        cp -r plugins/*/files/ output/
+        #rsync -rvP --inplace --mkpath plugins/*/files/ output/
         find . -name "*bluesky*"
     - name: Upload Site
       uses: actions/upload-pages-artifact@v3
