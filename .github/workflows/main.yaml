@@ -32,7 +32,7 @@ jobs:
     - name: Build and Deploy Nikola
       uses: getnikola/nikola-action@v8
       env:
-        PIP_CACHE=/tmp/pip/.cache
+        PIP_CACHE: /tmp/pip/.cache
       with:
         dry_run: true
     - name: Copy Plugin Assets
