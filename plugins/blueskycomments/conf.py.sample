@@ -1,0 +1,9 @@
+COMMENT_SYSTEM = "blueskycomments"
+COMMENT_SYSTEM_ID = 'bsky.app'
+GLOBAL_CONTEXT = {
+    ...
+    "bluesky_config": {
+        'handle': 'somebody.bsky.social',
+        'did': 'did:plc:randomstringofcharacters'
+    }
+}

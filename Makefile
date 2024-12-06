@@ -2,6 +2,7 @@ run: serve
 
 build: $(NIKOLA)
 	$(NIKOLA) build
+	rsync -avP plugins/*/files/ output/
 
 VENV_BIN = venv/bin
 NIKOLA = $(VENV_BIN)/nikola

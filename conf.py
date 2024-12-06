@@ -1042,12 +1042,12 @@ RSS_COPYRIGHT_FORMATS = CONTENT_FOOTER_FORMATS
 #   disqus, discourse, facebook, intensedebate, isso, muut, commento,
 #   utterances
 # You can leave this option blank to disable comments.
-COMMENT_SYSTEM = "mastodoncomments"
+COMMENT_SYSTEM = "bluesky"
 # And you also need to add your COMMENT_SYSTEM_ID which
 # depends on what comment system you use. The default is
 # "nikolademo" which is a test account for Disqus. More information
 # is in the manual.
-COMMENT_SYSTEM_ID = "hachyderm.io"
+COMMENT_SYSTEM_ID = "bsky.app"
 
 # Create index.html for page folders?
 # WARNING: if a page would conflict with the index file (usually
@@ -1429,9 +1429,9 @@ WARN_ABOUT_TAG_METADATA = False
 # Put in global_context things you want available on all your templates.
 # It can be anything, data, functions, modules, etc.
 GLOBAL_CONTEXT = {
-    "mastodon_config": {
-        'account_id': '109301336322429040',
-        'account': 'comptona'
+    "bluesky_config": {
+        'handle': 'comptona.bsky.social',
+        'did': 'did:plc:yxhvd47p53gmb5zfiktqq3og'
     }
 }
 

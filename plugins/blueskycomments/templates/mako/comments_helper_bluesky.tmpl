@@ -1,0 +1,31 @@
+## -*- coding: utf-8 -*-
+<%def name="comment_form(url, title, identifier)">
+%if comment_system_id and post.meta('bluesky'):
+
+<p>Comments are fetched directly from <a href="https://bsky.app/profile/${ bluesky_config['handle'] }/post/${ post.meta('bluesky') }">this post</a> - reply there to add your own comment.</p>
+
+<div id="comments-wrapper">
+<noscript><p>Loading comments relies on JavaScript. Try enabling JavaScript and reloading, or visit <a href="https://bsky.app/profile/${ bluesky_config['handle'] }/post/${ post.meta('bluesky') }">the original post</a> on Bluesky.</p></noscript>
+</div>
+<noscript>You need JavaScript to view the comments.</noscript>
+
+<!--<script type="text/javascript" src="/assets/js/purify.min.js"></script>-->
+<script type="text/javascript" src="/assets/js/bluesky.js"></script>
+
+<script>
+BLUESKY_DID = "${ bluesky_config['did'] }"
+BLUESKY_POST_ID = "${ post.meta('bluesky') }"
+
+loadComments();
+</script>
+%endif
+</%def>
+
+<%def name="comment_link(link, identifier)">
+%if comment_system_id:
+<a href="${link}#comment-section">${messages("Comments")}</a>
+%endif
+</%def>
+
+<%def name="comment_link_script()">
+</%def>
