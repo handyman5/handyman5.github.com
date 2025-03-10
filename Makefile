@@ -1,20 +1,15 @@
+NIKOLA = uv run nikola
+
 run: serve
 
-build: $(NIKOLA)
+build:
 	$(NIKOLA) build
 	rsync -avP plugins/*/files/ output/
 
-VENV_BIN = venv/bin
-NIKOLA = $(VENV_BIN)/nikola
-
-$(VENV_BIN)/nikola:
-	python3 -m venv venv
-	$(VENV_BIN)/pip install 'Nikola[extras]'
-
-serve: $(NIKOLA)
+serve:
 	# https://serialized.net/2013/04/nikola-and-livereload-ftw/
 	while inotifywait -r posts; do $(NIKOLA) build; done &
 	$(NIKOLA) serve
 
-new: $(NIKOLA)
+new:
 	$(NIKOLA) new_post
