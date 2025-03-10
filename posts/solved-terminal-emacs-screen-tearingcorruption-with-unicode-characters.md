@@ -7,6 +7,7 @@
 .. link:
 .. description:
 .. type: text
+.. bluesky: 3lk2jkumclc2g
 -->
 
 I was running into a _very_ strange glitch with terminal Emacs, showing up as all sorts of weird screen tearing and graphical corruption while moving around within and between files.
