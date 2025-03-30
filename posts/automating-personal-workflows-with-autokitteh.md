@@ -15,13 +15,13 @@ After doing lots of investigation (primarily via the [awesome-workflow-engines l
 
 * Self-hosted (no SaaS)
 * Workflows can be defined and managed in plain text (so they can be versioned)
-  * This eliminated most of the IFTTT and Zapier clones like [Automatisch](https://automatisch.io/)
+   * This eliminated most of the IFTTT and Zapier clones like [Automatisch](https://automatisch.io/)
 * Workflows can be written in Python
-  * This eliminated [Huginn](https://github.com/huginn/huginn)
+   * This eliminated [Huginn](https://github.com/huginn/huginn)
 * Pre-created integrations for services I use (for this purpose, mainly Slack and Todoist)
-  * This eliminated [Node-RED](https://nodered.org/) and [Dagu](https://github.com/dagu-org/dagu)
+   * This eliminated [Node-RED](https://nodered.org/) and [Dagu](https://github.com/dagu-org/dagu)
 * No "open-core" feature paywalls
-  * This eliminated [n8n](https://n8n.io/), [Windmill.dev](https://www.windmill.dev/), and [Activepieces](https://www.activepieces.com/)
+   * This eliminated [n8n](https://n8n.io/), [Windmill.dev](https://www.windmill.dev/), and [Activepieces](https://www.activepieces.com/)
 
 The thing I liked most about it is how the workflow definitions let you set up integrations and provide them to the workflow code, so you can use the integrations in any way you can imagine instead of just the ways that come predefined. It also allows you to trivially mix and match integrations, so I can (for instance) take a Slack message and create a Todoist task from it just by smushing the two APIs together.
 
