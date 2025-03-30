@@ -61,6 +61,7 @@ AK=~/.local/bin/ak
 deploy-%:
         $(AK) deploy --manifest $*/autokitteh.yaml
 ```
+And for my reference, here's [how to write workflows in Python](https://docs.autokitteh.com/develop/python).
 
 ## Workflow Ideas
 
