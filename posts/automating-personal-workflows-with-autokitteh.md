@@ -15,13 +15,13 @@ After doing lots of investigation (primarily via the [awesome-workflow-engines l
 
 * Self-hosted (no SaaS)
 * Workflows can be defined and managed in plain text (so they can be versioned)
-   * This eliminated most of the IFTTT and Zapier clones like [Automatisch](https://automatisch.io/)
+  * This eliminated most of the IFTTT and Zapier clones like [Automatisch](https://automatisch.io/)
 * Workflows can be written in Python
    * This eliminated [Huginn](https://github.com/huginn/huginn)
 * Pre-created integrations for services I use (for this purpose, mainly Slack and Todoist)
-   * This eliminated [Node-RED](https://nodered.org/) and [Dagu](https://github.com/dagu-org/dagu)
+    * This eliminated [Node-RED](https://nodered.org/) and [Dagu](https://github.com/dagu-org/dagu)
 * No "open-core" feature paywalls
-   * This eliminated [n8n](https://n8n.io/), [Windmill.dev](https://www.windmill.dev/), and [Activepieces](https://www.activepieces.com/)
+     * This eliminated [n8n](https://n8n.io/), [Windmill.dev](https://www.windmill.dev/), and [Activepieces](https://www.activepieces.com/)
 
 The thing I liked most about it is how the workflow definitions let you set up integrations and provide them to the workflow code, so you can use the integrations in any way you can imagine instead of just the ways that come predefined. It also allows you to trivially mix and match integrations, so I can (for instance) take a Slack message and create a Todoist task from it just by smushing the two APIs together.
 
@@ -66,8 +66,8 @@ I have so many workflows I want to build, I can't wait to get started:
 
 * Add a new link as a bookmark (in case I want to reference it later)
 * Add a new link to read later
-  * This would leverage another service I wrote that downloads the plain text of the article, creates a summary, and generates a RSS feed with that summary and an estimate of the reading time that I subscribe to in [Feedly](https://feedly.com/)
+   * This would leverage another service I wrote that downloads the plain text of the article, creates a summary, and generates a RSS feed with that summary and an estimate of the reading time that I subscribe to in [Feedly](https://feedly.com/)
 * Add a new podcast episode I'm not subscribed to
-  * Go grab the MP3 with [yt-dlp](https://github.com/yt-dlp/yt-dlp) and put it in a [Syncthing](https://syncthing.net/) directory my podcast app is watching
+   * Go grab the MP3 with [yt-dlp](https://github.com/yt-dlp/yt-dlp) and put it in a [Syncthing](https://syncthing.net/) directory my podcast app is watching
 
 And I'm sure I'll think of more as time goes on. I'm really excited to work with this tool and I look forward to figuring out everything it can do.

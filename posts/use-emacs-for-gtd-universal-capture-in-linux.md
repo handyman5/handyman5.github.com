@@ -3,9 +3,9 @@
 .. slug: use-emacs-for-gtd-universal-capture-in-linux
 .. date: 2023-03-16 12:00:00 UTC-07:00
 .. tags: emacs, howto
-.. category: 
-.. link: 
-.. description: 
+.. category:
+.. link:
+.. description:
 .. type: text
 -->
 
@@ -23,18 +23,20 @@ The first thing I needed was a script to summon an Emacs frame. If a frame alrea
 
 Here’s what I wrote to accomplish this task:
 
-    #!/bin/bash
+``` bash
+#!/bin/bash
+candidate=$(xdotool search --name "GNU Emacs" | tail -1)
+active=$(xdotool getwindowfocus)
+if [[ $candidate -eq $active ]]; then
+    xdotool windowminimize $candidate
+    exit 0
+fi
+if [[ -z $candidate ]]; then
+    emacsclient -c -n
     candidate=$(xdotool search --name "GNU Emacs" | tail -1)
-    active=$(xdotool getwindowfocus)
-    if [[ $candidate -eq $active ]]; then
-        xdotool windowminimize $candidate
-        exit 0
-    fi
-    if [[ -z $candidate ]]; then
-        emacsclient -c -n
-        candidate=$(xdotool search --name "GNU Emacs" | tail -1)
-    fi
-    xdotool windowactivate $candidate
+fi
+xdotool windowactivate $candidate
+```
 
 This uses xdotool to find the Emacs frame, if it exists, and also to get the ID of the currently active window. If no Emacs frame exists, emacsclient creates one and then xdotool windowactivate raises it. If an Emacs frame exists but is not the currently active window, xdotool windowactivate raises it. Finally, if a frame exists and *is *the currently active window, xdotool windowminimize hides it away. (This latter allows us to press the keyboard shortcut again to vanish the universal capture window and return focus to whatever was focused previously.)
 
