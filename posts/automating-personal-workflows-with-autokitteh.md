@@ -37,9 +37,11 @@ I took [the docker-compose configuration](https://github.com/autokitteh/autokitt
 
 Once I had that Helm chart created, I added it to my ArgoCD setup for my homelab and it was off to the races!
 
+Note that the Helm chart only supports "Dev" mode right now. I'll circle back and set up the dependencies properly so it has persistence and separate PostgreSQL and Redis and Temporal instances instead of running everything in-process, but I wanted to get started quickly so I built the smallest thing I could.
+
 ## Client Setup
 
-I downloaded [the `ak` binary from its repo](https://github.com/autokitteh/autokitteh/releases) and configured it to point to my server:
+I downloaded [the `ak` binary from its repo](https://github.com/autokitteh/autokitteh/releases) and [configured it to point to my server](https://docs.autokitteh.com/config/address/):
 
 ``` shell
 ak config set http.service_url https://<my-server-hostname>
