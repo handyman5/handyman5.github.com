@@ -1,38 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>My New Hugo Project</title>
-		<link>http://localhost:1313/</link>
-		<description>Recent content on My New Hugo Project</description>
+		<title>Adam Compton</title>
+		<link>https://handyman5.github.io/</link>
+		<description>Recent content on Adam Compton</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
 		
 		
 		
 		
-			<lastBuildDate>Wed, 10 Jun 2026 16:28:00 -0700</lastBuildDate>
-		
-			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-			<item>
-				<title>hello world 3</title>
-				<link>http://localhost:1313/posts/hello-world-3/</link>
-				<pubDate>Wed, 10 Jun 2026 16:28:00 -0700</pubDate>
-				<guid>http://localhost:1313/posts/hello-world-3/</guid>
-				<description>&lt;p&gt;:EXPORT_FILE_NAME: hello-world-3&lt;/p&gt;&#xA;&lt;h2 id=&#34;hello-world-3&#34;&gt;DRAFT hello world 3&lt;/h2&gt;&#xA;&lt;p&gt;this is the third hello-world post.&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>hello world 2</title>
-				<link>http://localhost:1313/posts/hello-world-2/</link>
-				<pubDate>Wed, 10 Jun 2026 15:11:00 -0700</pubDate>
-				<guid>http://localhost:1313/posts/hello-world-2/</guid>
-				<description>&lt;h2 id=&#34;hello-world-2&#34;&gt;DRAFT hello world 2&lt;/h2&gt;&#xA;&lt;p&gt;This is a second blog post. Let&amp;rsquo;s see if it works.&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Hello, world</title>
-				<link>http://localhost:1313/posts/hello-world/</link>
-				<pubDate>Wed, 10 Jun 2026 15:11:00 -0700</pubDate>
-				<guid>http://localhost:1313/posts/hello-world/</guid>
-				<description>&lt;h2 id=&#34;hello-world&#34;&gt;PUBLISHED Hello, world &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;hello&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;hugo&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h2&gt;&#xA;&lt;p&gt;This is a first-pass Org post exported with &lt;code&gt;ox-hugo&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;It lives in &lt;code&gt;~/Notes/Blog&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;li&gt;It exports to a separate Hugo repository.&lt;/li&gt;&#xA;&lt;li&gt;Draft visibility is controlled by the heading TODO state.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;table&gt;&#xA;&#x9;&lt;thead&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;col a&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;col b&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&lt;/thead&gt;&#xA;&#x9;&lt;tbody&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;foo&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;bar&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&lt;/tbody&gt;&#xA;&lt;/table&gt;</description>
-			</item>
+			<atom:link href="https://handyman5.github.io/index.xml" rel="self" type="application/rss+xml" />
 	</channel>
 </rss>
