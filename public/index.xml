@@ -10,6 +10,15 @@
 		
 		
 		
+			<lastBuildDate>Wed, 10 Jun 2026 15:11:00 -0700</lastBuildDate>
+		
 			<atom:link href="https://handyman5.github.io/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Hello, world</title>
+				<link>https://handyman5.github.io/posts/hello-world/</link>
+				<pubDate>Wed, 10 Jun 2026 15:11:00 -0700</pubDate>
+				<guid>https://handyman5.github.io/posts/hello-world/</guid>
+				<description>&lt;h2 id=&#34;hello-world&#34;&gt;PUBLISHED Hello, world &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;hello&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;hugo&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/h2&gt;&#xA;&lt;p&gt;This is a first-pass Org post exported with &lt;code&gt;ox-hugo&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;It lives in &lt;code&gt;~/Notes/Blog&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;li&gt;It exports to a separate Hugo repository.&lt;/li&gt;&#xA;&lt;li&gt;Draft visibility is controlled by the heading TODO state.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;table&gt;&#xA;&#x9;&lt;thead&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;col a&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;col b&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&lt;/thead&gt;&#xA;&#x9;&lt;tbody&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;foo&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;bar&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&lt;/tbody&gt;&#xA;&lt;/table&gt;</description>
+			</item>
 	</channel>
 </rss>

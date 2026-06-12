@@ -2,7 +2,7 @@
 title = "Hello, world"
 author = ["Adam"]
 date = 2026-06-10T15:11:00-07:00
-draft = true
+draft = false
 +++
 
 ## PUBLISHED Hello, world <span class="tag"><span class="hello">hello</span><span class="hugo">hugo</span></span> {#hello-world}
