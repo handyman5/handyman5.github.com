@@ -1,4 +1,5 @@
-NIKOLA = uv run nikola
+# nikola auto is busted in the latest release
+NIKOLA = uv run --with "git+https://github.com/getnikola/nikola.git\#egg=Nikola[extras]" nikola
 
 .DEFAULT_GOAL := help
 
@@ -20,9 +21,7 @@ build:  ## Render all the files
 	rsync -avP plugins/*/files/ output/
 
 serve: pull build ## Run the local web server and watch for changes
-	# https://serialized.net/2013/04/nikola-and-livereload-ftw/
-	while inotifywait -r posts; do $(NIKOLA) build; done &
-	$(NIKOLA) serve
+	$(NIKOLA) auto
 
 new: ## Create a new post
 	$(NIKOLA) new_post
