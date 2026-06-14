@@ -51,14 +51,14 @@ jobs:
 
             echo -e "\n=== 4. TESTING DIRECT SUBPROCESS EXECUTION ==="
             python3 -c "
-import subprocess
-try:
-    out = subprocess.check_output(['emacs', '--batch', '--eval', '(message \"Subprocess OK\")'], stderr=subprocess.STDOUT)
-    print('Subprocess call to emacs output:', out.decode())
-except Exception as e:
-    print('Subprocess verification failed:', e)
-"
-
+            import subprocess
+            try:
+                out = subprocess.check_output(['emacs', '--batch', '--eval', '(message \"Subprocess OK\")'], stderr=subprocess.STDOUT)
+                print('Subprocess call to emacs output:', out.decode())
+            except Exception as e:
+                print('Subprocess verification failed:', e)
+            "
+    
     - name: Build and Deploy Nikola
       uses: getnikola/nikola-action@v8
       with:
