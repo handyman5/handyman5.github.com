@@ -1,0 +1,39 @@
+#+BEGIN_COMMENT
+.. title: Walking desk, practicum
+.. slug: walking-desk-practicum
+.. date: 2026-06-13 16:32
+.. status: published
+#+END_COMMENT
+
+I wanted to get a walking desk setup (variously also known as a treadmill desk or treadmill workstation) so I could get a few more steps in, especially as it's getting to be summertime here and I don't want to go outside during the day if I can possibly avoid it.
+
+I did a lot of research and went down a lot of dead ends, but I found some kit that works for me and I wanted to share in case anybody else was stuck in the same way.
+
+{{{TEASER_END}}}
+
+* tl; dr
+:PROPERTIES:
+:ID:       4f4df03a-9b26-4acf-986b-c25b3da24b2b
+:CREATED:  [2026-06-13 Sat 16:50]
+:END:
+
+The [[https://www.amazon.com/dp/B0F9Y3GJ59][Eocnrhe treadmill desk]] and the [[https://www.urevo.com/products/urevo-spacewalk-e1l-treadmill][UREVO Spacewalk E1L walking pad]] are a fine combination; the walking pad can bear my weight, and the desk gets high enough to put a laptop on at a comfortable height (even accounting for the depth of the walking pad) and even tilts to settle the laptop at an appropriate angle. These aren't the sturdiest or highest-quality items, but they definitely get the job done, they work well together, and they were an inexpensive way for me to get started with a walking desk.
+
+* Criteria
+:PROPERTIES:
+:ID:       e964d62a-58e6-4cce-96e5-138b285e8426
+:CREATED:  [2026-06-13 Sat 16:50]
+:END:
+
+- treadmill TBD (supported weight, lightness, no bells and whistles)
+- desk TBD (comfortable height, easy to relocate, narrow)
+
+
+* Initial research
+:PROPERTIES:
+:ID:       8dba4f27-d552-4541-ac3f-8b14daf1c506
+:CREATED:  [2026-06-13 Sat 16:50]
+:END:
+
+I started with Wirecutter; even though they were bought out a few years ago, their product reviews are at least a good baseline for learning about what's on the market. They have a [[https://www.nytimes.com/wirecutter/reviews/best-under-desk-treadmills/][best under-desk treadmills]] review which recommends the "Goplus 2 in 1" treadmill. 
+

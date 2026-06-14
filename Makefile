@@ -12,11 +12,14 @@ help: ## Show this help
 
 run: serve
 
+pull:  ## Pull posts from ~/Notes/Blog, transform metadata for Nikola
+	-uv run python3 scripts/pull-from-notes.py
+
 build:  ## Render all the files
 	$(NIKOLA) build
 	rsync -avP plugins/*/files/ output/
 
-serve: ## Run the local web server and watch for changes
+serve: pull build ## Run the local web server and watch for changes
 	# https://serialized.net/2013/04/nikola-and-livereload-ftw/
 	while inotifywait -r posts; do $(NIKOLA) build; done &
 	$(NIKOLA) serve
