@@ -63,8 +63,6 @@ jobs:
       uses: getnikola/nikola-action@v8
       with:
         dry_run: true
-        apt_install:
-            - emacs-nox
     - name: Copy Plugin Assets
       run: |-
         sudo chmod -R o+w output
