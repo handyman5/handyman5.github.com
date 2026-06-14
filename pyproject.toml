@@ -7,7 +7,6 @@ requires-python = ">=3.10"
 dependencies = [
     "dateparser>=1.4.0",
     "nikola[extras]>=8.3.1",
-    "slugify>=0.0.1",
 ]
 
 [dependency-groups]

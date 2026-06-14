@@ -1453,10 +1453,10 @@ PROJECT_PATH = 'projects'
 #     ]
 # }
 # conf.py
-COMPILER_FLAGS = {
-    "orgmode": [
-        "/usr/bin/emacs",
-        "--batch",
-        "--eval", "(require 'org)",
-    ]
-}
+# COMPILER_FLAGS = {
+#     "orgmode": [
+#         "/usr/bin/emacs",
+#         "--batch",
+#         "--eval", "(require 'org)",
+#     ]
+# }

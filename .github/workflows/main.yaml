@@ -10,13 +10,7 @@ jobs:
       pages: write
     name: 'Deploy Nikola to GitHub Pages'
     steps:
-    # - name: Install APT Packages
-    #   run: |
-    #     sudo apt-get update
-    #     sudo apt-get install -y emacs-nox
-    #     which emacs
-    #     emacs --version
-    - name: Check out repo
+    - name: Check out
       uses: actions/checkout@v6
     # - name: Setup Python
     #   uses: actions/setup-python@v5
@@ -25,32 +19,6 @@ jobs:
     #     cache: 'pip'
     # - name: Install Nikola
     #   run: pip install "Nikola[extras]"
-
-    - name: Clean Diagnostics for Nikola Org-mode
-      continue-on-error: true
-      run: |
-        echo "=== 1. CHECKING EXECUTABLE PATHS ==="
-        echo "Current PATH: $PATH"
-        echo "Which emacs: $(which emacs || echo 'NOT FOUND')"
-        
-        echo -e "\n=== 2. PYTHON ENVIRONMENT ==="
-        python3 -c "import shutil; print('Can Python find emacs?:', shutil.which('emacs'))"
-        
-        echo -e "\n=== 3. EMACS NATIVE ORG CHECK ==="
-        emacs --batch --no-init-file --eval '
-          (condition-case err
-              (progn
-                (require '\''org)
-                (message "SUCCESS: Org-mode version %s is available!" (org-version)))
-            (error
-              (message "FAILURE: Could not load org. Error: %s" err)))
-        '
-
-        echo -e "\n=== 4. SIMULATING FULL SUBPROCESS CALL ==="
-        python3 -c "import subprocess; print('Result:', subprocess.check_output(['emacs', '--batch', '--eval', '(message \"Python Subprocess OK\")'], stderr=subprocess.STDOUT).decode().strip())"
-
-
-
     - name: Build and Deploy Nikola
       uses: getnikola/nikola-action@v8
       with:
