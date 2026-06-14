@@ -10,12 +10,12 @@ jobs:
       pages: write
     name: 'Deploy Nikola to GitHub Pages'
     steps:
-    # - name: Install APT Packages
-    #   run: |
-    #     sudo apt-get update
-    #     sudo apt-get install -y emacs-nox
-    #     which emacs
-    #     emacs --version
+    - name: Install APT Packages
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y emacs-nox
+        which emacs
+        emacs --version
     - name: Check out repo
       uses: actions/checkout@v6
     # - name: Setup Python
@@ -27,8 +27,8 @@ jobs:
     #   run: pip install "Nikola[extras]"
 
     - name: Diagnose Nikola Org-mode Environment
-          continue-on-error: true
-          run: |
+      continue-on-error: true
+      run: |
             echo "=== 1. SYSTEM ENVIRONMENT & PATH ==="
             echo "Current PATH: $PATH"
             echo "Which emacs: $(which emacs || echo 'Not found via which')"
