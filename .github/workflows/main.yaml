@@ -10,12 +10,12 @@ jobs:
       pages: write
     name: 'Deploy Nikola to GitHub Pages'
     steps:
-    - name: Install APT Packages
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y emacs-nox
-        which emacs
-        emacs --version
+    # - name: Install APT Packages
+    #   run: |
+    #     sudo apt-get update
+    #     sudo apt-get install -y emacs-nox
+    #     which emacs
+    #     emacs --version
     - name: Check out repo
       uses: actions/checkout@v6
     # - name: Setup Python
@@ -55,6 +55,7 @@ jobs:
       uses: getnikola/nikola-action@v8
       with:
         dry_run: true
+        apt_install: emacs-nox
     - name: Copy Plugin Assets
       run: |-
         sudo chmod -R o+w output
