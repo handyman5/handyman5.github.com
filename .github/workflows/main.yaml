@@ -13,10 +13,32 @@ jobs:
     - name: Check out
       uses: actions/checkout@v4
 
+    # 1. Create a persistent cache key based on the package name
+    - name: Cache Emacs Binaries
+      id: cache-emacs
+      uses: actions/cache@v4
+      with:
+        path: /var/cache/apt/archives
+        key: ${{ runner.os }}-apt-emacs-nox
+
+    # 2. Update the package lists (always required)
+    - name: Update Package Index
+      run: sudo apt-get update
+
+    # 3. Only download files if the cache missed, then install from the local archive directory
     - name: Install System Dependencies (Emacs)
       run: |
-        sudo apt-get update
+        if [ "${{ steps.cache-emacs.outputs.cache-hit }}" != "true" ]; then
+          echo "Cache miss: Downloading emacs-nox packages..."
+          sudo apt-get install -y --download-only emacs-nox
+        fi
+        echo "Installing emacs-nox from local archive cache..."
         sudo apt-get install -y emacs-nox
+
+    # - name: Install System Dependencies (Emacs)
+    #   run: |
+    #     sudo apt-get update
+    #     sudo apt-get install -y emacs-nox
 
     - name: Set up uv
       uses: astral-sh/setup-uv@v5
