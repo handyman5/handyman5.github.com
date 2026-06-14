@@ -13,32 +13,10 @@ jobs:
     - name: Check out
       uses: actions/checkout@v4
 
-    # 1. Create a persistent cache key based on the package name
-    - name: Cache Emacs Binaries
-      id: cache-emacs
-      uses: actions/cache@v4
-      with:
-        path: /var/cache/apt/archives
-        key: ${{ runner.os }}-apt-emacs-nox
-
-    # 2. Update the package lists (always required)
-    - name: Update Package Index
-      run: sudo apt-get update
-
-    # 3. Only download files if the cache missed, then install from the local archive directory
     - name: Install System Dependencies (Emacs)
       run: |
-        if [ "${{ steps.cache-emacs.outputs.cache-hit }}" != "true" ]; then
-          echo "Cache miss: Downloading emacs-nox packages..."
-          sudo apt-get install -y --download-only emacs-nox
-        fi
-        echo "Installing emacs-nox from local archive cache..."
+        sudo apt-get update
         sudo apt-get install -y emacs-nox
-
-    # - name: Install System Dependencies (Emacs)
-    #   run: |
-    #     sudo apt-get update
-    #     sudo apt-get install -y emacs-nox
 
     - name: Set up uv
       uses: astral-sh/setup-uv@v5
@@ -67,41 +45,3 @@ jobs:
     # Instruct GitHub Pages to go live
     - name: Publish Site
       uses: actions/deploy-pages@v4
-
-
-# on: [push]
-
-# jobs:
-#   nikola_build:
-#     runs-on: ubuntu-latest
-#     #container: ghcr.io/handyman5/blog@sha256:167b597df57d3231749c1677cdff2b9e552f68003732893ede98f9709aa26ec9
-#     permissions:
-#       contents: write
-#       id-token: write
-#       pages: write
-#     name: 'Deploy Nikola to GitHub Pages'
-#     steps:
-#     - name: Check out
-#       uses: actions/checkout@v6
-#     # - name: Setup Python
-#     #   uses: actions/setup-python@v5
-#     #   with:
-#     #     python-version: '3.11'
-#     #     cache: 'pip'
-#     # - name: Install Nikola
-#     #   run: pip install "Nikola[extras]"
-#     - name: Build and Deploy Nikola
-#       uses: getnikola/nikola-action@v8
-#       with:
-#         dry_run: true
-#         apt_install: emacs-nox
-#     - name: Copy Plugin Assets
-#       run: |-
-#         sudo chmod -R o+w output
-#         rsync -rvP --inplace --mkpath plugins/*/files/ output/
-#     - name: Upload Site
-#       uses: actions/upload-pages-artifact@v3
-#       with:
-#         path: "output"
-#     - name: Publish Site
-#       uses: actions/deploy-pages@v4
