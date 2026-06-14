@@ -32,10 +32,10 @@ jobs:
         echo "=== 1. CHECKING EXECUTABLE PATHS ==="
         echo "Current PATH: $PATH"
         echo "Which emacs: $(which emacs || echo 'NOT FOUND')"
-        
+
         echo -e "\n=== 2. PYTHON ENVIRONMENT && SIMULATED NIKOLA CHECK ==="
         python3 -c "import shutil; print('Can Python find emacs?:', shutil.which('emacs'))"
-        
+
         echo -e "\n=== 3. FIX-TEST: EMACS NATIVE ORG CHECK ==="
         # Using a HERE-doc to keep the Elisp formatting completely pristine
         emacs --batch --no-init-file --eval '
@@ -49,18 +49,18 @@ jobs:
 
         echo -e "\n=== 4. SIMULATING FULL SUBPROCESS CALL ==="
         python3 -c "
-              import subprocess
-              try:
-                  cmd = ['emacs', '--batch', '--eval', '(message \"Python Subprocess OK\")']
-                  out = subprocess.check_output(cmd, stderr=subprocess.STDOUT)
-                  print('Result:', out.decode().strip())
-              except Exception as e:
-                  print('Subprocess execution crashed:', e)
-                      "
-    
+import subprocess
+try:
+    cmd = ['emacs', '--batch', '--eval', '(message \"Python Subprocess OK\")']
+    out = subprocess.check_output(cmd, stderr=subprocess.STDOUT)
+    print('Result:', out.decode().strip())
+except Exception as e:
+    print('Subprocess execution crashed:', e)
+"
 
 
-    
+
+
     - name: Build and Deploy Nikola
       uses: getnikola/nikola-action@v8
       with:
