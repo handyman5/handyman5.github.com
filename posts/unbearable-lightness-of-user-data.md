@@ -40,6 +40,4 @@ When you launch an instance, put the following in “User Data”:
 ssh_pwauth: True
 ```
 
-
-
 This will make cloud-init enable PasswordAuthentication in sshd (which it otherwise disables by default), so that you don’t need to use a key to log in to the instance.

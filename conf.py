@@ -1442,21 +1442,3 @@ GLOBAL_CONTEXT_FILLER = []
 
 # per https://plugins.getnikola.com/v8/projectpages/
 PROJECT_PATH = 'projects'
-
-# Add or update this in your Nikola conf.py
-# COMPILER_FLAGS = {
-#     "orgmode": [
-#         "emacs",
-#         "--batch",
-#         "-q",             # Do not load an init file
-#         "--no-site-file", # Skip loading /etc/emacs/site-start.d/*
-#     ]
-# }
-# conf.py
-# COMPILER_FLAGS = {
-#     "orgmode": [
-#         "/usr/bin/emacs",
-#         "--batch",
-#         "--eval", "(require 'org)",
-#     ]
-# }
