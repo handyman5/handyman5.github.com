@@ -10,12 +10,12 @@ jobs:
       pages: write
     name: 'Deploy Nikola to GitHub Pages'
     steps:
-    - name: Install APT Packages
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y emacs-nox
-        which emacs
-        emacs --version
+    # - name: Install APT Packages
+    #   run: |
+    #     sudo apt-get update
+    #     sudo apt-get install -y emacs-nox
+    #     which emacs
+    #     emacs --version
     - name: Check out repo
       uses: actions/checkout@v6
     # - name: Setup Python
@@ -25,10 +25,46 @@ jobs:
     #     cache: 'pip'
     # - name: Install Nikola
     #   run: pip install "Nikola[extras]"
+
+    - name: Diagnose Nikola Org-mode Environment
+          continue-on-error: true
+          run: |
+            echo "=== 1. SYSTEM ENVIRONMENT & PATH ==="
+            echo "Current PATH: $PATH"
+            echo "Which emacs: $(which emacs || echo 'Not found via which')"
+            type -a emacs || echo "emacs not found via type -a"
+
+            echo -e "\n=== 2. EMACS VERSION & BATCH TEST ==="
+            if command -v emacs &> /dev/null; then
+              emacs --version | head -n 1
+              echo "Testing Emacs Org-mode availability in batch mode:"
+              emacs --batch --eval "(if (featurep 'org) (message 'ORG-FOUND') (message 'ORG-NOT-FOUND'))" 2>&1
+              echo "Testing Emacs Org-mode require functionality:"
+              emacs --batch --eval "(condition-case err (progn (require 'org) (message 'ORG-LOAD-SUCCESS')) (error (message \"LOAD-FAILED: %s\" err)))" 2>&1
+            else
+              echo "Emacs binary is missing entirely from the environment runner path."
+            fi
+
+            echo -e "\n=== 3. PYTHON ENVIRONMENT & VENV ==="
+            python3 -c "import sys; print('Python executable:', sys.executable)"
+            python3 -c "import shutil; print('Can Python find emacs via shutil?:', shutil.which('emacs'))"
+
+            echo -e "\n=== 4. TESTING DIRECT SUBPROCESS EXECUTION ==="
+            python3 -c "
+import subprocess
+try:
+    out = subprocess.check_output(['emacs', '--batch', '--eval', '(message \"Subprocess OK\")'], stderr=subprocess.STDOUT)
+    print('Subprocess call to emacs output:', out.decode())
+except Exception as e:
+    print('Subprocess verification failed:', e)
+"
+
     - name: Build and Deploy Nikola
       uses: getnikola/nikola-action@v8
       with:
         dry_run: true
+        apt_install:
+            - emacs-nox
     - name: Copy Plugin Assets
       run: |-
         sudo chmod -R o+w output
