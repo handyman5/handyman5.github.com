@@ -1,13 +1,14 @@
-<!--
-.. title: Caveats when migrating from Mac OS X to Linux for serving Mac OS X home folders
-.. slug: caveats-when-migrating-macosx-linux
-.. date: 2007-02-12 12:00:00 UTC-07:00
-.. tags: linux, mac os x, til
-.. category: 
-.. link: 
-.. description: 
-.. type: text
--->
+---
+title: Caveats when migrating from Mac OS X to Linux for serving Mac OS X home folders
+slug: caveats-when-migrating-macosx-linux
+date: 2007-02-12 12:00:00 UTC-07:00
+tags: linux, mac os x, til
+category: 
+link: 
+description: 
+type: text
+atUri: "at://did:plc:yxhvd47p53gmb5zfiktqq3og/site.standard.document/3momrx7dskd22"
+---
 
 _(originally from <https://web.archive.org/web/20150422203246/http://ajcsystems.com/blog/page/2/>)_
 

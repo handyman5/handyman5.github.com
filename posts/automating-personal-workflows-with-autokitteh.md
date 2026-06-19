@@ -1,13 +1,14 @@
-<!--
-.. title: Automating Personal Workflows with Autokitteh
-.. slug: automating-personal-workflows-with-autokitteh
-.. date: 2025-03-30 00:14:16 UTC-07:00
-.. tags: kubernetes, automation
-.. category:
-.. link:
-.. description:
-.. type: text
--->
+---
+title: Automating Personal Workflows with Autokitteh
+slug: automating-personal-workflows-with-autokitteh
+date: 2025-03-30 00:14:16 UTC-07:00
+tags: kubernetes, automation
+category:
+link:
+description:
+type: text
+atUri: "at://did:plc:yxhvd47p53gmb5zfiktqq3og/site.standard.document/3momrx4k3ew2j"
+---
 
 I wanted to build some workflow automation for various tasks I do often (like coming across a link that I want to share with my work after writing a little introduction message). I knew it would need to be flexible and customizable, so I wanted something I could run myself and control every aspect of.
 

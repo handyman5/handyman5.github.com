@@ -1,13 +1,14 @@
-<!--
-.. title: New project: MythTV voice control
-.. slug: mythtv-voice-control
-.. date: 2013-08-22 12:00:00 UTC-07:00
-.. tags: mythtv
-.. category: 
-.. link:
-.. description:
-.. type: text
--->
+---
+title: "New project: MythTV voice control"
+slug: mythtv-voice-control
+date: 2013-08-22 12:00:00 UTC-07:00
+tags: mythtv
+category: 
+link:
+description:
+type: text
+atUri: "at://did:plc:yxhvd47p53gmb5zfiktqq3og/site.standard.document/3momrx6fvkz2u"
+---
 
 _(originally from <https://web.archive.org/web/20161024021737/http://ajcsystems.com/blog/blog/2012/06/11/new-project-mythtv-voice-control/>)_
 

@@ -1,13 +1,14 @@
-<!--
-.. title: Neat new software I’ve written recently
-.. slug: neat-new-software
-.. date: 2011-11-13 12:00:00 UTC-07:00
-.. tags: code
-.. category: 
-.. link: 
-.. description: 
-.. type: text
--->
+---
+title: Neat new software I’ve written recently
+slug: neat-new-software
+date: 2011-11-13 12:00:00 UTC-07:00
+tags: code
+category: 
+link: 
+description: 
+type: text
+atUri: "at://did:plc:yxhvd47p53gmb5zfiktqq3og/site.standard.document/3momrx74dcr2p"
+---
 
 _(originally from <https://web.archive.org/web/20150422203246/http://ajcsystems.com/blog/page/2/>)_
 

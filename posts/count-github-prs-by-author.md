@@ -1,13 +1,14 @@
-<!--
-.. title: How to get a count of Github PRs, by author
-.. slug: count-github-prs-by-author
-.. date: 2023-02-08 12:00:00 UTC-07:00
-.. tags: howto
-.. category: 
-.. link:
-.. description:
-.. type: text
--->
+---
+title: How to get a count of Github PRs, by author
+slug: count-github-prs-by-author
+date: 2023-02-08 12:00:00 UTC-07:00
+tags: howto
+category: 
+link:
+description:
+type: text
+atUri: "at://did:plc:yxhvd47p53gmb5zfiktqq3og/site.standard.document/3momrx5auxr2p"
+---
 
 ![image](/images/0_0bbs-1ZwaSaEImTQ.webp)
 

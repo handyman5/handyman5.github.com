@@ -1,14 +1,15 @@
-<!--
-.. title: New Blog (and thoughts on seizing the moment)
-.. slug: new-blog-and-thoughts-on-seizing-the-moment
-.. date: 2024-07-06 22:17:27 UTC-07:00
-.. tags: meta
-.. category: 
-.. link: 
-.. description: 
-.. type: text
-.. mastodon: 111381798078225519
--->
+---
+title: New Blog (and thoughts on seizing the moment)
+slug: new-blog-and-thoughts-on-seizing-the-moment
+date: 2024-07-06 22:17:27 UTC-07:00
+tags: meta
+category: 
+link: 
+description: 
+type: text
+mastodon: 111381798078225519
+atUri: "at://did:plc:yxhvd47p53gmb5zfiktqq3og/site.standard.document/3momrx4zio72b"
+---
 
 Well, hello there! I've once again schlepped my writing to a new blog platform. After getting tired of trying to write in Medium's web editor, I wanted to go with something based on text files. I looked into setting up something hosted (like <https://write.as>), but digging into the feature set and pricing left my head spinning. What really got me going though was this post about [using Bluesky replies as blog comments](https://graysky.app/blog/2024-02-05-adding-blog-comments). Incorporating something like that basically required a self-hosted system (so I could tweak the template enough to incorporate it).
 

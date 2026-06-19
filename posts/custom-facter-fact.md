@@ -1,13 +1,14 @@
-<!--
-.. title: How to make a custom Facter fact that’s also a script
-.. slug: custom-facter-fact
-.. date: 2011-10-13 12:00:00 UTC-07:00
-.. tags: puppet
-.. category: 
-.. link: 
-.. description: 
-.. type: text
--->
+---
+title: How to make a custom Facter fact that’s also a script
+slug: custom-facter-fact
+date: 2011-10-13 12:00:00 UTC-07:00
+tags: puppet
+category: 
+link: 
+description: 
+type: text
+atUri: "at://did:plc:yxhvd47p53gmb5zfiktqq3og/site.standard.document/3momrx76ybj2p"
+---
 
 _(originally from <https://web.archive.org/web/20150422203246/http://ajcsystems.com/blog/page/2/>)_
 

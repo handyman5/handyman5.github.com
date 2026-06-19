@@ -1,13 +1,14 @@
-<!--
-.. title: Sometimes things just work the first time
-.. slug: sometimes-things-just-work-the-first-time
-.. date: 2013-09-12 12:00:00 UTC-07:00
-.. tags: 
-.. category: 
-.. link: 
-.. description: 
-.. type: text
--->
+---
+title: Sometimes things just work the first time
+slug: sometimes-things-just-work-the-first-time
+date: 2013-09-12 12:00:00 UTC-07:00
+tags: 
+category: 
+link: 
+description: 
+type: text
+atUri: "at://did:plc:yxhvd47p53gmb5zfiktqq3og/site.standard.document/3momrx6audy2n"
+---
 
 _(originally from <https://web.archive.org/web/20150421220939/http://ajcsystems.com/blog/blog/2013/09/12/sometimes-things-just-work-the-first-time/>)_
 

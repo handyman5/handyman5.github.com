@@ -1,13 +1,14 @@
-<!--
-.. title: Making a Blog Logo
-.. slug: making-a-blog-logo
-.. date: 2024-07-11 10:30:27 UTC-07:00
-.. tags: meta
-.. category: 
-.. link: 
-.. description: 
-.. type: text
--->
+---
+title: Making a Blog Logo
+slug: making-a-blog-logo
+date: 2024-07-11 10:30:27 UTC-07:00
+tags: meta
+category: 
+link: 
+description: 
+type: text
+atUri: "at://did:plc:yxhvd47p53gmb5zfiktqq3og/site.standard.document/3momrx4wwky2b"
+---
 
 To commemorate the new blog, I wanted to have a cool logo up in the corner. Since one of my current interests is generative AI, I thought I'd try using it to generate myself a logo. This post explains the process.
 

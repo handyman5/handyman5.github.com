@@ -1,0 +1,17 @@
+{
+  "publicDir": "./output",
+  "outputDir": "./output/assets",
+  "pathPrefix": "/posts",
+  "publishContent": true,
+  "removeIndexFromSlug": false,
+  "stripDatePrefix": false,
+  "autoSync": true,
+  "$schema": "https://tangled.org/stevedylan.dev/sequoia/raw/main/sequoia.schema.json",
+  "siteUrl": "https://handyman5.github.io/",
+  "contentDir": "./posts",
+  "publicationUri": "at://did:plc:yxhvd47p53gmb5zfiktqq3og/site.standard.publication/3mohn6mqvab25",
+  "pdsUrl": "https://inkcap.us-east.host.bsky.network",
+  "bluesky": {
+    "enabled": true
+  }
+}

@@ -1,13 +1,14 @@
-<!--
-.. title: "What do you mean, there's no podcast feed?"
-.. slug: no-podcast-feed
-.. date: 2012-10-22 12:00:00 UTC-07:00
-.. tags: 
-.. category: 
-.. link: 
-.. description: 
-.. type: text
--->
+---
+title: "What do you mean, there's no podcast feed?"
+slug: no-podcast-feed
+date: 2012-10-22 12:00:00 UTC-07:00
+tags: 
+category: 
+link: 
+description: 
+type: text
+atUri: "at://did:plc:yxhvd47p53gmb5zfiktqq3og/site.standard.document/3momrx6neql22"
+---
 
 _(originally from <https://web.archive.org/web/20150421230946/http://ajcsystems.com/blog/blog/2012/10/22/what-do-you-mean-theres-no-podcast-feed/>)_
 

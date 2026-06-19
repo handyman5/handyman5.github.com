@@ -1,13 +1,14 @@
-<!--
-.. title: Creating an EPUB from a Wordpress blog
-.. slug: creating-an-epub-from-a-wordpress-blog
-.. date: 2017-11-26 12:00:00 UTC-07:00
-.. tags: code
-.. category: 
-.. link: 
-.. description: 
-.. type: text
--->
+---
+title: Creating an EPUB from a Wordpress blog
+slug: creating-an-epub-from-a-wordpress-blog
+date: 2017-11-26 12:00:00 UTC-07:00
+tags: code
+category: 
+link: 
+description: 
+type: text
+atUri: "at://did:plc:yxhvd47p53gmb5zfiktqq3og/site.standard.document/3momrx5uixp2t"
+---
 
 Recently, I wanted to create epubs of some reading material, specifically some Wordpress-hosted blogs. Rather than implementing a separate script for each blog I wanted an epub from, I wrote a tool to figure it all out for me: [trivialpub](https://github.com/handyman5/trivialpub).
 

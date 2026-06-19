@@ -1,13 +1,14 @@
-<!--
-.. title: MythTV high CPU usage - solved!
-.. slug: mythtv-high-cpu-usage-solved
-.. date: 2013-10-02 12:00:00 UTC-07:00
-.. tags: fix, mythtv
-.. category: 
-.. link: 
-.. description: 
-.. type: text
--->
+---
+title: MythTV high CPU usage - solved!
+slug: mythtv-high-cpu-usage-solved
+date: 2013-10-02 12:00:00 UTC-07:00
+tags: fix, mythtv
+category: 
+link: 
+description: 
+type: text
+atUri: "at://did:plc:yxhvd47p53gmb5zfiktqq3og/site.standard.document/3momrx63wjy2n"
+---
 
 _(originally from <https://web.archive.org/web/20220521093228/http://ajcsystems.com/blog/blog/2013/10/02/mythtv-high-cpu-usage-solved/>)_
 

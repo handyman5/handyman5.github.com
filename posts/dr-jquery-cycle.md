@@ -1,13 +1,14 @@
-<!--
-.. title: Dr. jQuery-Cycle, or how I learned to stop using Keynote and love HTML
-.. slug: dr-jquery-cycle
-.. date: 2012-10-08 12:00:00 UTC-07:00
-.. tags: javascript, code
-.. category: 
-.. link: 
-.. description: 
-.. type: text
--->
+---
+title: Dr. jQuery-Cycle, or how I learned to stop using Keynote and love HTML
+slug: dr-jquery-cycle
+date: 2012-10-08 12:00:00 UTC-07:00
+tags: javascript, code
+category: 
+link: 
+description: 
+type: text
+atUri: "at://did:plc:yxhvd47p53gmb5zfiktqq3og/site.standard.document/3momrx6scyr2p"
+---
 
 _(originally from <https://web.archive.org/web/20150422001009/http://ajcsystems.com/blog/blog/2012/10/08/dr-jquery-cycle-or-how-i-learned-to-stop-using-keynote-and-love-html/>)_
 

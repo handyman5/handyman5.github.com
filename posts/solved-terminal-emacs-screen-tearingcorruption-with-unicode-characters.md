@@ -1,14 +1,15 @@
-<!--
-.. title: Solved! Terminal Emacs screen tearing/corruption with Unicode characters
-.. slug: solved-terminal-emacs-screen-tearingcorruption-with-unicode-characters
-.. date: 2025-03-10 13:42:48 UTC-07:00
-.. tags: emacs, solved
-.. category:
-.. link:
-.. description:
-.. type: text
-.. bluesky: 3lk2jkumclc2g
--->
+---
+title: Solved! Terminal Emacs screen tearing/corruption with Unicode characters
+slug: solved-terminal-emacs-screen-tearingcorruption-with-unicode-characters
+date: 2025-03-10 13:42:48 UTC-07:00
+tags: emacs, solved
+category:
+link:
+description:
+type: text
+bluesky: 3lk2jkumclc2g
+atUri: "at://did:plc:yxhvd47p53gmb5zfiktqq3og/site.standard.document/3momrx4mtda2b"
+---
 
 I was running into a _very_ strange glitch with terminal Emacs, showing up as all sorts of weird screen tearing and graphical corruption while moving around within and between files.
 

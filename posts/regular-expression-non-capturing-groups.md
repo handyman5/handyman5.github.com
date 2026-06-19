@@ -1,13 +1,14 @@
-<!--
-.. title: Regular Expression Non-Capturing Groups (or, what’s "(?:" mean?)
-.. slug: regular-expression-non-capturing-groups
-.. date: 2012-10-10 12:00:00 UTC-07:00
-.. tags: python, code, til
-.. category: 
-.. link: 
-.. description: 
-.. type: text
--->
+---
+title: Regular Expression Non-Capturing Groups (or, what’s "(?:" mean?)
+slug: regular-expression-non-capturing-groups
+date: 2012-10-10 12:00:00 UTC-07:00
+tags: python, code, til
+category: 
+link: 
+description: 
+type: text
+atUri: "at://did:plc:yxhvd47p53gmb5zfiktqq3og/site.standard.document/3momrx6pxpw2m"
+---
 
 _(originally from <https://web.archive.org/web/20150422001421/http://ajcsystems.com/blog/blog/2012/10/10/regular-expression-non-capturing-groups-or-whats-mean/>)_
 

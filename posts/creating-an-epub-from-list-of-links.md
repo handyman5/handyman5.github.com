@@ -1,13 +1,14 @@
-<!--
-.. title: Creating an ePub from a list of links
-.. slug: creating-an-epub-from-list-of-links
-.. date: 2017-01-22 12:00:00 UTC-07:00
-.. tags: howto
-.. category: 
-.. link: 
-.. description: 
-.. type: text
--->
+---
+title: Creating an ePub from a list of links
+slug: creating-an-epub-from-list-of-links
+date: 2017-01-22 12:00:00 UTC-07:00
+tags: howto
+category: 
+link: 
+description: 
+type: text
+atUri: "at://did:plc:yxhvd47p53gmb5zfiktqq3og/site.standard.document/3momrx5wyw22y"
+---
 
 I’ve read and enjoyed parts of [Michael O. Church’s](https://web.archive.org/web/20201205012321/https://michaelochurch.wordpress.com/ "https://web.archive.org/web/20201205012321/https://michaelochurch.wordpress.com/") take on Venkatesh Rao’s [Gervais Principle](https://web.archive.org/web/20201205012321/http://www.ribbonfarm.com/the-gervais-principle/ "https://web.archive.org/web/20201205012321/http://www.ribbonfarm.com/the-gervais-principle/"), but he took his blog offline before I was able to read them all. I decided to snag copies of all of the posts from [the Wayback Machine](https://web.archive.org/web/20201205012321/https://archive.org/web/ "https://web.archive.org/web/20201205012321/https://archive.org/web/") and turn them into an ebook for convenient reading. This appears to be a solved problem thanks to [this handy little Python library, pypub](https://web.archive.org/web/20201205012321/https://pypub.readthedocs.io/en/latest/ "https://web.archive.org/web/20201205012321/https://pypub.readthedocs.io/en/latest/"), but just in case it winds up being useful to someone here is what I did.
 

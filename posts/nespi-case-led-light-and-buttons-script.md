@@ -1,13 +1,13 @@
-<!--
-.. title: NESPi Case LED Light and Buttons Script
-.. slug: nespi-case-led-light-and-buttons-script
-.. date: 2026-01-04 23:54:09 UTC-08:00
-.. tags: howto
-.. category:
-.. link:
-.. description:
-.. type: text
--->
+---
+title: NESPi Case LED Light and Buttons Script
+date: 2026-06-14
+author: Adam Compton
+categories: [howto]
+tags: [emulation]
+atUri: "at://did:plc:yxhvd47p53gmb5zfiktqq3og/site.standard.document/3moho6hmy5y2b"
+description: I have a NESPi Case for my RetroPie emulation console. It has a little red LED light on the front and I wanted it to work.
+reading_time: 10
+---
 
 I have a [NESPi Case](https://retroflag.com/nespi-case-plus.html) for my [RetroPie](https://retropie.org.uk/) emulation console. It has a little red LED light on the front and I wanted it to work. However, after I installed [Lakka](https://www.lakka.tv/) (which is great in all other respects), I couldn't figure out how.
 

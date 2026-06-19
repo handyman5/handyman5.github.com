@@ -5,3 +5,4 @@ __pycache__
 output
 venv
 posts/.markdown-preview.html
+.sequoia-state.json

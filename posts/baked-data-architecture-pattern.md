@@ -1,13 +1,14 @@
-<!--
-.. title: The “Baked Data” architecture pattern
-.. slug: baked-data-architecture-pattern
-.. date: 2021-01-15 12:00:00 UTC-07:00
-.. tags: patterns
-.. category: 
-.. link: 
-.. description: 
-.. type: text
--->
+---
+title: The “Baked Data” architecture pattern
+slug: baked-data-architecture-pattern
+date: 2021-01-15 12:00:00 UTC-07:00
+tags: patterns
+category: 
+link: 
+description: 
+type: text
+atUri: "at://did:plc:yxhvd47p53gmb5zfiktqq3og/site.standard.document/3momrx5ft7b2u"
+---
 
 I learned about this recently from this blog post, and it seems like a really robust tool to have in my tool belt:
 

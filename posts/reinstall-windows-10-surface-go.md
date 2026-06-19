@@ -1,13 +1,14 @@
-<!--
-.. title: How I reinstalled Windows 10 on a Surface Go
-.. slug: reinstall-windows-10-surface-go
-.. date: 2020-06-03 12:00:00 UTC-07:00
-.. tags: howto, windows
-.. category: 
-.. link: 
-.. description: 
-.. type: text
--->
+---
+title: How I reinstalled Windows 10 on a Surface Go
+slug: reinstall-windows-10-surface-go
+date: 2020-06-03 12:00:00 UTC-07:00
+tags: howto, windows
+category: 
+link: 
+description: 
+type: text
+atUri: "at://did:plc:yxhvd47p53gmb5zfiktqq3og/site.standard.document/3momrx5kqea2b"
+---
 
 I purchased a Microsoft Surface Go recently. The other day, it blue-screened and refused to start up again (cycling through the “Automatic Repair” screen and failing repeatedly). I write this as a reference for myself for how to fix this if it happens again, and also to explain some of the dead ends I encountered along the way.
 

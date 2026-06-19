@@ -1,13 +1,14 @@
-<!--
-.. title: Linkpost: Command-line date utilities
-.. slug: linkpost-cli-date-utilities
-.. date: 2021-01-15 12:00:00 UTC-07:00
-.. tags: linkpost
-.. category: 
-.. link: 
-.. description: 
-.. type: text
--->
+---
+title: "Linkpost: Command-line date utilities"
+slug: linkpost-cli-date-utilities
+date: 2021-01-15 12:00:00 UTC-07:00
+tags: linkpost
+category: 
+link: 
+description: 
+type: text
+atUri: "at://did:plc:yxhvd47p53gmb5zfiktqq3og/site.standard.document/3momrx5de2d22"
+---
 
 http://www.fresse.org/dateutils
 

@@ -1,13 +1,14 @@
-<!--
-.. title: Linkpost: Command-Line Interface Guidelines
-.. slug: linkpost-command-line-interface-guidelines
-.. date: 2021-01-05 12:00:00 UTC-07:00
-.. tags: linkpost
-.. category: 
-.. link: 
-.. description: 
-.. type: text
--->
+---
+title: "Linkpost: Command-Line Interface Guidelines"
+slug: linkpost-command-line-interface-guidelines
+date: 2021-01-05 12:00:00 UTC-07:00
+tags: linkpost
+category: 
+link: 
+description: 
+type: text
+atUri: "at://did:plc:yxhvd47p53gmb5zfiktqq3og/site.standard.document/3momrx5ic7t22"
+---
 
 https://clig.dev/
 

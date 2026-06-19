@@ -1,13 +1,10 @@
-<!--
-.. title: Adventures in One-Liners
-.. slug: adventures-in-one-liners
-.. date: 2013-08-22 12:00:00 UTC-07:00
-.. tags: linux
-.. category: 
-.. link: 
-.. description: 
-.. type: text
--->
+---
+title: Adventures in One-Liners
+date: 2013-08-22
+author: Adam Compton
+tags: [linux]
+atUri: "at://did:plc:yxhvd47p53gmb5zfiktqq3og/site.standard.document/3mohnjcfo4t2m"
+---
 
 _(originally from <https://web.archive.org/web/20150421214026/http://ajcsystems.com/blog/blog/2013/08/22/adventures-in-one-liners/>)_
 

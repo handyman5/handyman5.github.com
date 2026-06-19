@@ -1,13 +1,14 @@
-<!--
-.. title: I love it when a plan comes together
-.. slug: love-it-when-a-plan-comes-together
-.. date: 2012-08-11 12:00:00 UTC-07:00
-.. tags: mythtv
-.. category: 
-.. link: 
-.. description: 
-.. type: text
--->
+---
+title: I love it when a plan comes together
+slug: love-it-when-a-plan-comes-together
+date: 2012-08-11 12:00:00 UTC-07:00
+tags: mythtv
+category: 
+link: 
+description: 
+type: text
+atUri: "at://did:plc:yxhvd47p53gmb5zfiktqq3og/site.standard.document/3momrx6zuah2b"
+---
 
 _(originally from <https://web.archive.org/web/20150504012625/http://ajcsystems.com/blog/blog/2012/08/11/i-love-it-when-a-plan-comes-together/>)_
 

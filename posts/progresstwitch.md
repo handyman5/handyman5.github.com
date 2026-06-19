@@ -1,13 +1,14 @@
-<!--
-.. title: ProgressTwitch!
-.. slug: progresstwitch
-.. date: 2015-06-07 12:00:00 UTC-07:00
-.. tags: howto
-.. category: 
-.. link: 
-.. description: 
-.. type: text
--->
+---
+title: ProgressTwitch!
+slug: progresstwitch
+date: 2015-06-07 12:00:00 UTC-07:00
+tags: howto
+category: 
+link: 
+description: 
+type: text
+atUri: "at://did:plc:yxhvd47p53gmb5zfiktqq3og/site.standard.document/3momrx5zh2d22"
+---
 
 _(originally from <https://web.archive.org/web/20220521094735/http://ajcsystems.com/blog/blog/2015/06/07/progresstwitch/>)_
 

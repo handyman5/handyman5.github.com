@@ -1,13 +1,14 @@
-<!--
-.. title: Nerds have a sense of humor, too
-.. slug: nerds-have-a-sense-of-humor-too
-.. date: 2006-12-21 12:00:00 UTC-07:00
-.. tags: humor
-.. category: 
-.. link: 
-.. description: 
-.. type: text
--->
+---
+title: Nerds have a sense of humor, too
+slug: nerds-have-a-sense-of-humor-too
+date: 2006-12-21 12:00:00 UTC-07:00
+tags: humor
+category: 
+link: 
+description: 
+type: text
+atUri: "at://did:plc:yxhvd47p53gmb5zfiktqq3og/site.standard.document/3momrx7gcnj2p"
+---
 
 _(originally from <https://web.archive.org/web/20150421220346/http://ajcsystems.com/blog/blog/2006/12/>)_
 

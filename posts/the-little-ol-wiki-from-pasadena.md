@@ -1,13 +1,14 @@
-<!--
-.. title: The Little Ol’ Wiki From Pasadena
-.. slug: the-little-ol-wiki-from-pasadena
-.. date: 2013-08-22 12:00:00 UTC-07:00
-.. tags: code
-.. category: 
-.. link: 
-.. description: 
-.. type: text
--->
+---
+title: The Little Ol’ Wiki From Pasadena
+slug: the-little-ol-wiki-from-pasadena
+date: 2013-08-22 12:00:00 UTC-07:00
+tags: code
+category: 
+link: 
+description: 
+type: text
+atUri: "at://did:plc:yxhvd47p53gmb5zfiktqq3og/site.standard.document/3momrx6ddhq2b"
+---
 
 _(originally from <https://web.archive.org/web/20150422203816/http://ajcsystems.com/blog/blog/2012/10/30/the-little-ol-wiki-from-pasadena/>)_
 
