@@ -7,7 +7,6 @@ category:
 link: 
 description: 
 type: text
-atUri: "at://did:plc:yxhvd47p53gmb5zfiktqq3og/site.standard.document/3momrx6ddhq2b"
 ---
 
 _(originally from <https://web.archive.org/web/20150422203816/http://ajcsystems.com/blog/blog/2012/10/30/the-little-ol-wiki-from-pasadena/>)_

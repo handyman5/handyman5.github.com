@@ -7,7 +7,6 @@ category:
 link: 
 description: 
 type: text
-atUri: "at://did:plc:yxhvd47p53gmb5zfiktqq3og/site.standard.document/3momrx66g762m"
 ---
 
 _(originally from <https://web.archive.org/web/20150423071752/http://ajcsystems.com/blog/blog/2013/09/15/til-installing-windows-7-on-a-non-default-drive/>)_

@@ -7,7 +7,6 @@ category:
 link: 
 description: 
 type: text
-atUri: "at://did:plc:yxhvd47p53gmb5zfiktqq3og/site.standard.document/3momrx53woo2m"
 ---
 
 I recently switched to using a Linux desktop from a Mac as my primary work computer. I had grown quite accustomed to iTerm2’s session restoration feature, and I wanted something similar for Linux. Here is how I made it happen.

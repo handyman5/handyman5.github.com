@@ -8,7 +8,6 @@ link:
 description:
 type: text
 bluesky: 3ltyg3alwd22b
-atUri: "at://did:plc:yxhvd47p53gmb5zfiktqq3og/site.standard.document/3momrx4hjeg2m"
 ---
 
 I read Charity Majors' [post about her motivation](https://charity.wtf/2025/07/09/thoughts-on-motivation-and-my-40-year-career/), and although I'm not even in the same galaxy as she is in terms of accomplishments, it inspired me to write about my own motivation. Charity describes her motivation as living a meaningful life, acting with integrity, and building things of enduring value instead of tearing them down.

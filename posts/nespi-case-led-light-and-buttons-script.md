@@ -1,6 +1,6 @@
 ---
 title: NESPi Case LED Light and Buttons Script
-date: 2026-06-14
+date: 2026-01-04 23:54:09 UTC-08:00
 author: Adam Compton
 categories: [howto]
 tags: [emulation]

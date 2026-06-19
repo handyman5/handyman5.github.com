@@ -8,7 +8,6 @@ link:
 description: 
 type: text
 bluesky: 3lcmsvl47k22t
-atUri: "at://did:plc:yxhvd47p53gmb5zfiktqq3og/site.standard.document/3momrx4pfgh2b"
 ---
 
 As of this post, posts on this blog will each be associated with a Bluesky post and display that post and its responses inline.

@@ -7,7 +7,6 @@ category:
 link: 
 description: 
 type: text
-atUri: "at://did:plc:yxhvd47p53gmb5zfiktqq3og/site.standard.document/3momrx7gcnj2p"
 ---
 
 _(originally from <https://web.archive.org/web/20150421220346/http://ajcsystems.com/blog/blog/2006/12/>)_

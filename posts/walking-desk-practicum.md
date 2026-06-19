@@ -4,7 +4,6 @@ date: 2026-06-13
 author: Adam Compton
 categories: ["health", "howto"]
 tags:
-atUri: "at://did:plc:yxhvd47p53gmb5zfiktqq3og/site.standard.document/3momrx45mzd22"
 ---
 
 <!--

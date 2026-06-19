@@ -7,7 +7,6 @@ category:
 link:
 description:
 type: text
-atUri: "at://did:plc:yxhvd47p53gmb5zfiktqq3og/site.standard.document/3momrx5auxr2p"
 ---
 
 ![image](/images/0_0bbs-1ZwaSaEImTQ.webp)

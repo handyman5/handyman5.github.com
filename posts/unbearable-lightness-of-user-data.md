@@ -7,7 +7,6 @@ category:
 link: 
 description: 
 type: text
-atUri: "at://did:plc:yxhvd47p53gmb5zfiktqq3og/site.standard.document/3momrx6us2q2b"
 ---
 
 _(originally from <https://web.archive.org/web/20150423071705/http://ajcsystems.com/blog/blog/2012/10/02/the-unbearable-lightness-of-user-data/>)_

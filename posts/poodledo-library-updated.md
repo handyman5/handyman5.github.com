@@ -7,7 +7,6 @@ category:
 link: 
 description: 
 type: text
-atUri: "at://did:plc:yxhvd47p53gmb5zfiktqq3og/site.standard.document/3momrx7befq2b"
 ---
 
 _(originally from <https://web.archive.org/web/20150421212536/http://ajcsystems.com/blog/blog/2012/10/06/poodledo-library-updated/>)_

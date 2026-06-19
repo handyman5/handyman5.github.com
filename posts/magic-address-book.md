@@ -7,7 +7,6 @@ category:
 link: 
 description: 
 type: text
-atUri: "at://did:plc:yxhvd47p53gmb5zfiktqq3og/site.standard.document/3momrx4uewe2b"
 ---
 
 I have young children, and keeping track of their friends' contact information is hard for me. Every year I get a list from each kid's teacher of their classmates and the classmates' parents' names and contact information, but translating that into contacts on my phone so I can text another parent to organize a playdate is a gigantic hassle. What I really wanted was something magical, a spreadsheet where I could copy those class rosters and have the contacts just appear on my phone. I looked around a lot, and nothing of the sort exists.

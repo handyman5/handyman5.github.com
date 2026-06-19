@@ -7,7 +7,6 @@ category:
 link: 
 description: 
 type: text
-atUri: "at://did:plc:yxhvd47p53gmb5zfiktqq3og/site.standard.document/3momrx6zuah2b"
 ---
 
 _(originally from <https://web.archive.org/web/20150504012625/http://ajcsystems.com/blog/blog/2012/08/11/i-love-it-when-a-plan-comes-together/>)_

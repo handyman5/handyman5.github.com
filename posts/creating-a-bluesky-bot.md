@@ -7,7 +7,6 @@ category:
 link: 
 description: 
 type: text
-atUri: "at://did:plc:yxhvd47p53gmb5zfiktqq3og/site.standard.document/3momrx4rvgt2b"
 ---
 
 I've been experiencing some burnout recently, and one of the best ways for me to fix that is to build something. Couple that with my opinions about the recent US election[^1], and I wanted to do something to learn about Bluesky and spark a little discussion if I could.

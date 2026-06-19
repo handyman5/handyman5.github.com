@@ -8,7 +8,6 @@ link:
 description:
 type: text
 bluesky: 3lk2jkumclc2g
-atUri: "at://did:plc:yxhvd47p53gmb5zfiktqq3og/site.standard.document/3momrx4mtda2b"
 ---
 
 I was running into a _very_ strange glitch with terminal Emacs, showing up as all sorts of weird screen tearing and graphical corruption while moving around within and between files.
