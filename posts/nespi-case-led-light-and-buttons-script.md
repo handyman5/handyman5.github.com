@@ -2,8 +2,7 @@
 title: NESPi Case LED Light and Buttons Script
 date: 2026-01-04 23:54:09 UTC-08:00
 author: Adam Compton
-categories: [howto]
-tags: [emulation]
+tags: [howto, emulation]
 atUri: "at://did:plc:yxhvd47p53gmb5zfiktqq3og/site.standard.document/3moho6hmy5y2b"
 description: I have a NESPi Case for my RetroPie emulation console. It has a little red LED light on the front and I wanted it to work.
 reading_time: 10

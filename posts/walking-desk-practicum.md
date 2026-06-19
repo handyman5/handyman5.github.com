@@ -2,8 +2,7 @@
 title: Walking desk, practicum
 date: 2026-06-13
 author: Adam Compton
-categories: ["health", "howto"]
-tags:
+tags: ["health", "howto"]
 ---
 
 <!--
